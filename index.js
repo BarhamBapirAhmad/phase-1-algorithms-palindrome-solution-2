@@ -1,4 +1,10 @@
 function isPalindrome(word) {
+  for(var x =0 ; x<=word.length/2; x++){
+    if(word[x] !== word[word.length-1-x]){
+      return false
+    }
+    return true;
+  } 
   // Write your algorithm here
 }
 
